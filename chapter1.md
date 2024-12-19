@@ -56,12 +56,12 @@ Combines the features of the above two models.
 ## Forecasting Point of View
 What we are trying to forecast is unknown and can be thought of as a *random variable*. When we obtain a forecast, we are estimating the middle of the range of possible values that the random variable can take. This forecast is accompanied by a *prediction interval* that gives a range of possible values the random variable can take with high probability.
 
-$y_t$: Observation at time *t*.<br>
-$I$: All information we have observed.<br>
-$y_t|I$: The random variable $y_t$ given what we know in $I$.<br>
+$$y_t$$: Observation at time *t*.<br>
+$$I$$: All information we have observed.<br>
+$$y_t|I$$: The random variable $$y_t$$ given what we know in $$I$$.<br>
 
-The set of values that the random variable $y_t$ can take, along with their respective probabilities, is known as the *probability distribution* of $y_t|I$ and is referred to as the *forecast distribution*.<br>
+The set of values that the random variable $y_t$ can take, along with their respective probabilities, is known as the *probability distribution* of $$y_t|I$$ and is referred to as the *forecast distribution*.<br>
 
-$\hat{y}$: Forecast, the average value of the forecast distribution.<br>
-$\hat{y}_{t|t-1}$: Forecast of $y_t$ given all previous observations $(y_1, \dots, y_{t-1})$<br>
-$\hat{y}_{T + h|T}$: Forecast of $y_{T + h}$ taking into account $y_1, \dots, y_T$.<br>
+$$\hat{y}$$: Forecast, the average value of the forecast distribution.<br>
+$$\hat{y}_{t|t-1}$$: Forecast of $$y_t$$ given all previous observations $$(y_1, \dots, y_{t-1})$$<br>
+$$\hat{y}_{T + h|T}$$: Forecast of $$y_{T + h}$$ taking into account $$y_1, \dots, y_T$$.<br>
