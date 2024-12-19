@@ -27,15 +27,15 @@ Factors that make a quantity or event predictable:
 The *error* term allows us to account for random variation or unaccounted-for variables.
 
 ### Explanatory Model
-$$y = f(x_1, x_2, \dots, x_n, \text{error})$$
+$$y = f(x_1, x_2, \dots, x_n, \text{error})$$<br>
 Explains the variation in the variable $y$ through the incorporation of other predictor variables.
 
 ### Time Series Model
-$$y_{t+1} = f(y_t, y_{t-1}, y_{t-2}, \dots, y_{t-n}, \text{error})$$
+$$y_{t+1} = f(y_t, y_{t-1}, y_{t-2}, \dots, y_{t-n}, \text{error})$$<br>
 The prediction of the future is based on past values of a variable. Particularly useful when the system isn't understood or the external predictor variables have complex relationships governing the variable of interest. This model is ideal when we only care about the prediction, not why it happens.
 
 ### Mixed Model
-$$y_{t+1} = f(y_t, x_1, x_2, \dots, x_n, \text{error})$$
+$$y_{t+1} = f(y_t, x_1, x_2, \dots, x_n, \text{error})$$<br>
 Combines the features of the above two models.
 
 ## Forecast Phases
