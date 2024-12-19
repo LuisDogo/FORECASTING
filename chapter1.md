@@ -62,6 +62,6 @@ $$y_t|I$$: The random variable $$y_t$$ given what we know in $$I$$.<br>
 
 The set of values that the random variable $y_t$ can take, along with their respective probabilities, is known as the *probability distribution* of $$y_t|I$$ and is referred to as the *forecast distribution*.<br>
 
-$$\hat{y}$$: Forecast, the average value of the forecast distribution.<br>
-$$\hat{y}_{t|t-1}$$: Forecast of $$y_t$$ given all previous observations $$(y_1, \dots, y_{t-1})$$<br>
-$$\hat{y}_{T + h|T}$$: Forecast of $$y_{T + h}$$ taking into account $$y_1, \dots, y_T$$.<br>
+$$\hat y$$: Forecast, the average value of the forecast distribution.<br>
+$$\hat y_{t|t-1}$$: Forecast of $$y_t$$ given all previous observations $$(y_1, \dots, y_{t-1})$$<br>
+$$\hat y_{T + h|T}$$: Forecast of $$y_{T + h}$$ taking into account $$y_1, \dots, y_T$$.<br>
