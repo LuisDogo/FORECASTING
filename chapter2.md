@@ -1,5 +1,5 @@
 # TIME SERIES GRAPHICS
-In data analysis we plot first, Ask second. ︻┳═一💥<br>
+In data analysis we plot first. Ask second ︻┳═一💥.<br>
 Features seen in plots must be incorporated as much as possible  in the forecasting methods used.
 ## Variable types
 | Index | Key | Value |
@@ -27,5 +27,5 @@ Portrays the:
 - Seasonality: higher autocorrelations for seasonal lags than for other lags. 
 of a time series.
 ## White noise
-Time series that show no autocorrelation.
-For "white noise" series we expect  $$95\%$$ of the spikes of the ACF to lie within $$\pm2\sqrt[2]{T}$$ where: $$T$$ is the length of the time series, if $$1+$$ are outside these bouds or more than $$95\%$$ of the spikes are outside these bounds , the series is probably not white noise.
+Time series that show no autocorrelation. <br>
+For "white noise" series we expect  95\% of the spikes of the ACF to lie within $$\pm2\sqrt[2]{T}$$ where: $$T$$ is the length of the time series, if $$1+$$ are outside these bouds or more than 95% of the spikes are outside these bounds , the series is probably not white noise.
