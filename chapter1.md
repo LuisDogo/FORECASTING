@@ -1,6 +1,6 @@
 # Getting Started
 
-## What Can Be Forecasted?
+## What can be forecasted?
 Factors that make a quantity or event predictable:
 - How well the factors contributing to it are understood
 - Available data
@@ -13,47 +13,47 @@ Factors that make a quantity or event predictable:
 | --- | --- | --- |
 | The prediction | What we want to happen | How to respond according to the forecast to meet the goal |
 
-## A Good Forecast
+## A good forecast
 - Captures genuine patterns and relationships within the historical data.
 - Reflects the way things are changing, assuming not that the environment does not change, but that the way it is changing will continue in the future.
 
-## Forecasting Methods
+## forecasting methods
 - **Qualitative forecasting**: Used when no historical data is available or relevant.
 - **Quantitative forecasting**: Used when numerical information is available and it is reasonable to assume some past patterns will persist.
   - **Time series data**: Collected over time.
   - **Cross-sectional data**: Collected at a single point in time.
 
-## Model Types
+## model types
 The *error* term allows us to account for random variation or unaccounted-for variables.
 
-### Explanatory Model
+### Explanatory model
 $$y = f(x_1, x_2, \dots, x_n, \text{error})$$
 Explains the variation in the variable $y$ through the incorporation of other predictor variables.
 
-### Time Series Model
+### Time Series model
 $$y_{t+1} = f(y_t, y_{t-1}, y_{t-2}, \dots, y_{t-n}, \text{error})$$
 The prediction of the future is based on past values of a variable. Particularly useful when the system isn't understood or the external predictor variables have complex relationships governing the variable of interest. This model is ideal when we only care about the prediction, not why it happens.
 
-### Mixed Model
+### Mixed model
 $$y_{t+1} = f(y_t, x_1, x_2, \dots, x_n, \text{error})$$
 Combines the features of the above two models.
 
-## Forecast Phases
-1. **Problem Definition**
+## Forecast phases
+1. **Problem definition**
    - How will the forecast be used?
    - Who requires the forecast?
-2. **Information Gathering**
+2. **Information gathering**
    - Statistical data
    - Expertise of data collectors and forecast users
    - Note: Data value diminishes over time
-3. **Preliminary (Exploratory) Analysis**
+3. **Preliminary/Exploratory analysis**
    - Start by graphing the data and searching for consistent patterns, significant trends, seasonality importance, cycles, outliers, and correlation between variables (consult experts to explain these).
-4. **Choosing and Fitting Models**
+4. **Choosing and fitting models**
    - Compare 2–3 potential models. Each model is an artificial construct based on a set of assumptions (explicit and implicit), involving parameters to be estimated using known historical data.
-5. **Using and Evaluating a Forecast Model**
+5. **Using and evaluating a forecast model**
    - Once the model and its parameters are chosen, the model's performance can only be evaluated after the data for the forecast period becomes available.
 
-## Forecasting Point of View
+## Forecasting POV
 What we are trying to forecast is unknown and can be thought of as a *random variable*. When we obtain a forecast, we are estimating the middle of the range of possible values that the random variable can take. This forecast is accompanied by a *prediction interval* that gives a range of possible values the random variable can take with high probability.
 
 $y_t$: Observation at time *t*.<br>
