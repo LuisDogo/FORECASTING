@@ -5,10 +5,13 @@ time series are complex, so we dissect them into components representing and und
 - trend = trend + cycle = $T_t$
 - remainder component = white noise $R_t$
 
-Additive composition $y_t = S_t + T_t + R_t$
-most appropiate if the magnitude of the seasonal fluctuations, or the variation aorund the trend cycle, does not vary with the level of the time series.
+Additive composition:  $$y_t = S_t + T_t + R_t$$
+Magnitude of seasonal fluctiations & variation around trend cycle dont vary with the time series level.
 <br>
-Multiplicative composition $y_t = S_t * T_t * R_t$
+
+Multiplicative composition:  $$y_t = S_t * T_t * R_t \equiv log(y_t) = log(S_t) + log(T_t) + log(R_t)$$
+Magnitude of seasonal fluctiations & variation around trend cycle vary with the time series level.
+<br>
 ## Methodology
 1. transform/adjust it
 2. decomposition it
