@@ -24,3 +24,19 @@ we do this, to obtain a simpler series by removing known sources of variation/ma
 - mathematical (log, power, box-cox) if the data shows variation which increases or decreases with the level of the series
 
 <br>*simpler patterns are easier to model & yield better forecasts*
+
+## Decompositions
+
+### Moving Average Smoothing
+
+### Moving Average of Moving Average
+
+### Weighted Moving Averages
+
+### Classical Decomposition
+
+### X-11 method
+
+### SEATS method
+
+### STL

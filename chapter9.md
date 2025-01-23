@@ -5,4 +5,4 @@ a stationary time series is one whose statistical properties do not depend on th
 
 *no trend or seasonality*
 
-$y_t \forall_s $ the distribution of $(y_t, ..., y_{t+s})$ doesn't depend on $t$
+if $y_t$ is stationary, then $\forall_s $ the distribution of $(y_t, ..., y_{t+s})$ doesn't depend on $t$
