@@ -42,11 +42,12 @@ where m = 2k + 1
 - mxn-**MA** = m-**MA** applyed after an n-**MA**
 - even number
 ### Weighted Moving Averages
-
+- result as combinations of nm-**MA**
 ### Classical Decomposition
-
-### X-11 method
-
-### SEATS method
-
-### STL
+We assume that the seasonal component is constant from year to year
+#### Additive
+#### Multiplicative
+### Modern Decomposition Methods
+- X-11
+- SEATS
+- STL
