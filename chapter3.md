@@ -27,10 +27,20 @@ we do this, to obtain a simpler series by removing known sources of variation/ma
 
 ## Decompositions
 
-### Moving Average Smoothing
-
+### Moving Averages
+- OG time series decomposition method
+- estimates tred-cycle (capturing main movement, without minor fluctuations)
+### Smoothing m-**MA**
+estimate of trend-cycle component at time t, m observation window centered on the t observation.
+$$\^T_t = \frac{1}{m} \sum_{j = -k}^k y_{t + j}$$
+where m = 2k + 1
+- odd number.
+- close in time $\approx$ close in value
+- averaging eliminates randomness in data, leaving the smooth trend-cycle component.
+- m $\alpha$ smoothness
 ### Moving Average of Moving Average
-
+- mxn-**MA** = m-**MA** applyed after an n-**MA**
+- even number
 ### Weighted Moving Averages
 
 ### Classical Decomposition
