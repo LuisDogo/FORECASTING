@@ -52,5 +52,13 @@ We assume that the seasonal component is constant from year to year
 #### Multiplicative
 ### Modern Decomposition Methods
 - X-11
+    - **Additive & Multiplicative support**
+    - available estimations for all times
+    - seasonal component is allowed to vary over time (slowly)
 - SEATS
+    - "Seasonal Extraction in ARIMA time series"
 - STL
+    - **Additive support**
+    - handles all seasonality types.
+    - seasonal component rate of change & smoothness of trend-cycle are hyperparameters
+    - robust against outliers
