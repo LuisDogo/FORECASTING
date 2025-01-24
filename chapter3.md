@@ -26,7 +26,10 @@ we do this, to obtain a simpler series by removing known sources of variation/ma
 <br>*simpler patterns are easier to model & yield better forecasts*
 
 ## Decompositions
-
+- unavailable estimations for first/last few observations.
+- oversmooths big changes in trend-cycle
+- unable to capture seasonal changes over time.
+- not robust enough to capture atypical values.
 ### Moving Averages
 - OG time series decomposition method
 - estimates tred-cycle (capturing main movement, without minor fluctuations)
