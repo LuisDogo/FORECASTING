@@ -12,5 +12,6 @@ are simple & serve only as benchmarks, rather than a method of choice.
 - seasonal naïve: last observed value from same season of the year.
 - drift: line between first and last observation.
 ## Fitted values & residuals.
+fitted values are all the observations used to produce $y_hat$
 
 
